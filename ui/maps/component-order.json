@@ -1,0 +1,138 @@
+[
+    {
+        "name" : "Pipline Flow",
+        "keywords" :[]
+    },
+    {
+        "name" : "Order Confirmation",
+        "keywords" :["order"]
+    },
+    {
+        "name" : "Pricing and Charges",
+        "keywords" :["money"]
+    },
+    {
+        "name" : "Promotions, Coupons, and Discounts",
+        "keywords" :[]
+    },
+    {
+        "name" : "Appeasements",
+        "keywords" :["appeasement"]
+    },
+    {
+        "name" : "Proration",
+        "keywords" :[]
+    },
+    {
+        "name" : "Order Type and Config",
+        "keywords" :["fulfill", "release"]
+    },
+    {
+        "name" : "Order Monitoring",
+        "keywords" :[]
+    },
+    {
+        "name" : "Mod Config",
+        "keywords" :[]
+    },
+    {
+        "name" : "Order Updates - Line/Header/Return",
+        "keywords" :["orderline", "header", "return"]
+    },
+    {
+        "name" : "Reallocate on Short",
+        "keywords" :["short"]
+    },
+    {
+        "name" : "Allocation",
+        "keywords" :["allocate", "allocation"]
+    },
+    {
+        "name" : "Publish Order",
+        "keywords" :[]
+    },
+    {
+        "name" : "Release",
+        "keywords" :["release"]
+    },
+    {
+        "name" : "Prioritization",
+        "keywords" :[]
+    },
+    {
+        "name" : "Order Events - Status Update, Ship, Short and Pick",
+        "keywords" :["ship", "pick"]
+    },
+    {
+        "name" : "Payment",
+        "keywords" :["payment"]
+    },
+    {
+        "name" : "Shipment Invoices",
+        "keywords" :[""]
+    },
+    {
+        "name" : "Return Invoices",
+        "keywords" :[]
+    },
+    {
+        "name" : "Adjustment Invoices",
+        "keywords" :["adjustmentinvoice"]
+    },
+    {
+        "name" : "Sales Posting",
+        "keywords" :[]
+    },
+    {
+        "name" : "Returns - includes return fee",
+        "keywords" :[]
+    },
+    {
+        "name" : "Exchanges",
+        "keywords" :[]
+    },
+    {
+        "name" : "Holds",
+        "keywords" :[]
+    },
+    {
+        "name" : "Order Audit",
+        "keywords" :[]
+    },
+    {
+        "name" : "Archiving",
+        "keywords" :[]
+    },
+    {
+        "name" : "BOPIS",
+        "keywords" :[]
+    },
+    {
+        "name" : "Ship to Store",
+        "keywords" :[]
+    },
+    {
+        "name" : "Store Sales & Returns",
+        "keywords" :[]
+    },
+    {
+        "name" : "Digital Goods",
+        "keywords" :[]
+    },
+    {
+        "name" : "Edge Server",
+        "keywords" :[]
+    },
+    {
+        "name" : "User Exits",
+        "keywords" :[]
+    },
+    {
+        "name" : "Unidentified",
+        "keywords" :[]
+    },
+    {
+        "name" : "All",
+        "keywords" :[]
+    }
+]

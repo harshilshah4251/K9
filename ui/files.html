@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Impacted areas</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+
+    <script>window.$ = window.jQuery = require('./node_modules/jquery');</script>
+    <script src="semantic/dist/semantic.min.js"></script>
+  
+</head>
+
+<body onload="getImpactedAreas()">
+
+    <div class="ui text container segment">
+            <h2 class="ui header"></h2>
+        <div class="ui segment">
+           
+            <div id = "impacted_areas_labels_div" class ="ui aligned grid" ></div>
+            <!--________________________________________________________________-->
+
+            
+               
+            <!--________________________________________________________________-->
+        </div>
+        <div class="ui segment">
+            <div class="ui center aligned grid">
+
+                <div class="five wide column">
+                    <a href="repositories.html">
+                        <button class="fluid ui teal button">Back</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="components.js"></script>
+    <script>
+        $('.ui .header').html('Impacted Areas: ' + localStorage.repository);
+    </script>
+    
+</body>
+
+</html>

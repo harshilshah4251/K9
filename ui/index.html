@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Impacted files</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+
+    <script>window.$ = window.jQuery = require('./node_modules/jquery');</script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    
+
+    
+</head>
+
+<body>
+        <div class="ui active dimmer" style = "display : none;" id="loader">
+                <div class="ui indeterminate text loader" >Preparing Files</div>
+            </div>
+    <div class="ui text container segment">
+            
+        <h2 class="ui header">Files tracker</h2>
+
+        <p>
+            Fill out the details and hit check
+        </p>
+
+        <!--                              calendar input                                       -->
+        <div class="ui segment">
+            <div class="ui aligned grid middle aligned">
+                <div class="three wide column middle aligned content">
+                    <p>Start date : </p>
+                </div>
+                <div class="five wide column">
+                    <div class="ui calendar" id="example1">
+
+                        <div class="fluid ui input left icon">
+
+                            <i class="calendar icon"></i>
+                            <input type="text" placeholder="Date" id = "start_date" value = "2018-04-01">
+                        </div>
+                    </div>
+                </div>
+                <div class="three wide column middle aligned content" >
+                    <p>Start time : </p>
+                </div>
+                <div class="five wide column">
+                    <div class="ui calendar" id="example1">
+                        <div class="fluid ui input left icon">
+
+                            <i class="time icon"></i>
+                            <input type="text" placeholder="Time" id = "start_time" value = "00:00:00">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="three wide column middle aligned content">
+                    <p>End date : </p>
+                </div>
+                <div class="five wide column">
+                    <div class="ui calendar" id="example1">
+
+                        <div class="fluid ui input left icon">
+
+                            <i class="calendar icon"></i>
+                            <input type="text" placeholder="Date"  id = "end_date" value = "2018-04-04">
+                        </div>
+                    </div>
+                </div>
+                <div class="three wide column middle aligned content" >
+                    <p>End time : </p>
+                </div>
+                <div class="five wide column">
+                    <div class="ui calendar" id="example1">
+                        <div class="fluid ui input left icon">
+
+                            <i class="time icon"></i>
+                            <input type="text" placeholder="Time" id = "end_time" value = "00:00:00">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--_____________________Select repo_______________________________-->
+
+        <div class="ui segment">
+                <div class="ui aligned grid middle aligned">
+                    <div class = "sixteen wide column middle aligned content">
+                <div class="ui multiple selection dropdown" id = "repositories_dropdown">
+                        <!-- This will receive comma separated values !-->
+                        <input name="repositories" type="hidden" id= "repositories" value="">
+                        <i class="dropdown icon"></i>
+                        <div class="default text">Select repository</div>
+                        <div class="menu">
+                          <div class="item" data-value='component-order'>component-order</div>
+                          <div class="item" data-value='component-payment'>component-payment</div>
+                          <div class="item" data-value='component-inventory'>component-inventory</div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class = "sixteen wide column middle aligned content">
+            <div class="ui input focus" id = "branch_input">
+            <input placeholder="Default branch: master" id = "branch" type="text">
+            </div>
+        </div>
+           </div>
+        </div>
+    
+
+    
+    <!--_______________________________________________________________________________-->
+
+    <div class="ui segment">
+        <div class="ui center aligned grid">
+
+            <div class="sixteen wide column">
+               <button class="fluid ui teal button" onclick="sendRequest()">Check</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+<script src="components.js"></script>
+<script>
+        verifySignedIn();
+</script>
+    
+</body>
+
+</html>
+
+
+<!-- <a href = "files.html">   -->

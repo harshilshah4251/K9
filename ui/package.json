@@ -1,0 +1,19 @@
+{
+  "name": "bitbucket-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Harshil",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.2",
+    "fs": "0.0.1-security",
+    "request": "^2.87.0",
+    "requests": "^0.2.2",
+    "semantic-ui": "^2.3.1",
+    "semantic-ui-calendar": "0.0.8"
+  }
+}

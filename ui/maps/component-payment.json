@@ -1,0 +1,61 @@
+[
+    {
+        "name":"Payment Parameters",
+        "keywords" : []
+    },
+    
+    {
+        "name":"Payment Rule",
+        "keywords" : []
+    },
+    {
+        "name":"Refund",
+        "keywords" : []
+    },
+    {
+        "name":"Settlement",
+        "keywords" : []
+    },
+    {
+        "name":"Authorization",
+        "keywords" : []
+    },
+    
+    {
+        "name":"Advance Authorization",
+        "keywords" : []
+    },
+    {
+        "name":"Return Credit",
+        "keywords" : []
+    },
+    {
+        "name":"Fraud",
+        "keywords" : []
+    },
+    {
+        "name":"Simulator",
+        "keywords" : []
+    },
+    
+    {
+        "name":"Gift Cards",
+        "keywords" : []
+    },
+    {
+        "name":"Payment Groups",
+        "keywords" : []
+    },
+    {
+        "name":"User Exits",
+        "keywords" : []
+    },
+    {
+        "name" : "Unidentified",
+        "keywords" :[]
+    },
+    {
+        "name" : "All",
+        "keywords" :[]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "name" : "Segmentation",
+        "keywords" :["src/main/java/com/manh/cp/inventory/inventory/event", "src/main/java/com/manh/cp/inventory/inventory/segmentation", "src/main/java/com/manh/cp/inventory/inventory/validation", "onhandsegmentconfig", "src/main/java/com/manh/cp/inventory/inventory/impl/service/segment"]
+    },
+    {
+        "name" : "Reservation - All or None",
+        "keywords" : ["src/main/java/com/manh/cp/inventory/reservation", "src/main/java/com/manh/cp/inventory/location","src/main/java/com/manh/cp/inventory/inventory/impl/service/reservation", "inventorycache", "pricemargin", "inventorystatuscacherefresh", "daysofsupply", "/client/dto/Reservation", "reservation", "client/src/main/java/com/manh/cp/inventory/inventory/cache/status/", "src/main/java/com/manh/cp/inventory/inventory/impl/service/", "client/src/main/java/com/manh/cp/inventory/inventory/client/dto/Allocation"]
+    },
+    {
+        "name" : "Onhand Reservation",
+        "keywords" : ["src/main/java/com/manh/cp/inventory/reservation", "src/main/java/com/manh/cp/inventory/location","src/main/java/com/manh/cp/inventory/inventory/impl/service/reservation", "inventorycache", "pricemargin", "inventorystatuscacherefresh", "daysofsupply", "/client/dto/Reservation", "reservation", "client/src/main/java/com/manh/cp/inventory/inventory/cache/status/", "src/main/java/com/manh/cp/inventory/inventory/impl/service/", "client/src/main/java/com/manh/cp/inventory/inventory/client/dto/Allocation"]
+    },
+    {
+        "name" : "Future Inventory Reservation",
+        "keywords" : ["src/main/java/com/manh/cp/inventory/reservation", "src/main/java/com/manh/cp/inventory/location","src/main/java/com/manh/cp/inventory/inventory/impl/service/reservation", "inventorycache", "pricemargin", "inventorystatuscacherefresh", "daysofsupply", "/client/dto/Reservation", "reservation", "client/src/main/java/com/manh/cp/inventory/inventory/cache/status/", "src/main/java/com/manh/cp/inventory/inventory/impl/service/", "client/src/main/java/com/manh/cp/inventory/inventory/client/dto/Allocation"]
+    },
+    {
+        "name" : "Supply event - OH, Future",
+        "keywords" :["src/main/java/com/manh/cp/inventory/inventory/event"]
+    },
+    {
+        "name" : "Supply event - Attribute based",
+        "keywords" :["src/main/java/com/manh/cp/inventory/inventory/event"]
+    },
+    {
+        "name" : "Reservation supply event - Short and ship",
+        "keywords" :["src/main/java/com/manh/cp/inventory/reservation", "src/main/java/com/manh/cp/inventory/location/capacity"]
+    },
+    {
+        "name" : "Inventory raise and drop",
+        "keywords" :["src/main/java/com/manh/cp/inventory/reservation/helper", "src/main/java/com/manh/cp/inventory/reservation/api/service", "src/main/java/com/manh/cp/inventory/reservation/impl/service"]
+    },
+    {
+        "name" : "Availability",
+        "keywords" :["src/main/java/com/manh/cp/inventory/view", "src/main/java/com/manh/cp/inventory/availability","/inventory/inventory/impl/service/Supply", "itemchangeeventservice", "itemlocationconfigserviceimpl", "src/main/java/com/manh/cp/inventory/inventory/impl/service/ItemLocation", "src/main/java/com/manh/cp/inventory/item/impl/service/ItemService", "src/main/java/com/manh/cp/inventory/inventory/api/service/Supply"]
+    },
+    {
+        "name" : "Regional Availability",
+        "keywords" :["src/main/java/com/manh/cp/inventory/view", "src/main/java/com/manh/cp/inventory/availability","/inventory/inventory/impl/service/Supply", "itemchangeeventservice", "itemlocationconfigserviceimpl", "src/main/java/com/manh/cp/inventory/inventory/impl/service/ItemLocation", "src/main/java/com/manh/cp/inventory/item/impl/service/ItemService"]
+    },
+    {
+        "name" : "Capacity updates",
+        "keywords" :["src/main/java/com/manh/cp/inventory/location/capacity", "src/main/java/com/manh/cp/inventory/location/impl/service"]
+    },
+    {
+        "name" : "Fulfillment Outage",
+        "keywords" :["src/main/java/com/manh/cp/inventory/view", "src/main/java/com/manh/cp/inventory/availability"]
+    },
+    {
+        "name" : "Inbound Sync",
+        "keywords" :["src/main/java/com/manh/cp/inventory/sync", "src/main/java/com/manh/cp/inventory/inventory/event"]
+    },
+    {
+        "name" : "Outbound Sync perpetual",
+        "keywords" :["src/main/java/com/manh/cp/inventory/inventory/sync/outbound"]
+    },
+    {
+        "name" : "Availability Sync",
+        "keywords" :["src/main/java/com/manh/cp/inventory/availability"]
+    },
+    {
+        "name" : "Availability Statistics",
+        "keywords" :["src/main/java/com/manh/cp/inventory/availability"]
+    },
+    {
+        "name" : "Backordered",
+        "keywords" :["backordered"]
+    },
+    {
+        "name" : "Unidentified",
+        "keywords" :[]
+    },
+    {
+        "name" : "All",
+        "keywords" :[]
+    }
+    
+]

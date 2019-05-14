@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Impacted files</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+
+    <script>window.$ = window.jQuery = require('./node_modules/jquery');</script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    
+</head>
+
+<body>
+        <div class="ui active dimmer" style = "display : none;" id="loader">
+                <div class="ui indeterminate text loader" >Logging you in</div>
+            </div>
+    <div class="ui text container segment">
+            
+        <h2 class="ui header">Files tracker</h2>
+
+        <p>
+            Sign up
+        </p>
+        
+        <!--                              calendar input                                       -->
+        <div class="ui segment middle aligned">
+           
+                <div class="ui two column grid">
+                        
+                        <div class="column">
+                          <div class="ui form">
+                            <div class="field">
+                              <label>Email</label>
+                              <div class="ui left icon input">
+                                <input placeholder="Email" type="text" id = "signup_email" value = ""> 
+                                <i class="user icon"></i>
+                              </div>
+                            </div>
+                            <div class="field">
+                              <label>Password</label>
+                              <div class="ui left icon input">
+                                <input type="password" id = "signup_password" value = "">
+                                <i class="lock icon"></i>
+                              </div>
+                            </div>
+                            <div class="field">
+                                    <label>Client ID</label>
+                                    <div class="ui left icon input">
+                                      <input type="password" id = "signup_client_id" value = "">
+                                      <i class="id badge icon"></i>
+                                    </div>
+                                  </div>
+                            <div class="field">
+                                <label>Client secret</label>
+                                <div class="ui left icon input">
+                                    <input type="password" id = "signup_client_secret" value = "">
+                                    <i class="user secret icon"></i>
+                                </div>
+                                </div>
+                            <button class="ui blue submit button" onclick = "saveSignUpCredentials()">Login</button>
+                            
+                          </div>
+                        </div>
+                        <div class="ui tiny modal">
+                                <div class="header">Credentials were successfully saved</div>
+                                        <div class="content">
+                                                <p>Go to the tracker to use the tool. You might have to enter the credentials again in case of bad credentials.</p>
+                                              </div>
+                                              <div class="actions">
+                                                <a href="index.html"><div class="ui green button">Go to the tracker</div></a>
+                                              </div>
+                                
+                        </div>
+                      </div>
+            
+        </div>
+
+        <!--_____________________Select repo_______________________________-->
+
+    
+
+    
+    <!--_______________________________________________________________________________-->
+
+
+
+
+
+</div>
+    <script src="components.js"></script>
+    
+</body>
+
+</html>
+
+
+<!-- <a href = "files.html">   -->

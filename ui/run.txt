@@ -1,0 +1,3 @@
+#!/bin/bash
+ 
+npm start & FLASK_APP=../backend/main.py flask run
