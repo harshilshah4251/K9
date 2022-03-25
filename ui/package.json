@@ -9,7 +9,7 @@
   "author": "Harshil",
   "license": "ISC",
   "dependencies": {
-    "electron": "^2.0.2",
+    "electron": "^13.6.6",
     "fs": "0.0.1-security",
     "request": "^2.87.0",
     "requests": "^0.2.2",
